@@ -6,14 +6,12 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestSolution {
-  private static String testFileDir = "/absolute/path_to/test_file_dir/";
+  private static String testFileDir = "/absolute/path_to/test_file_dir/"; // need the ending /
+  private static String[] inputFiles = { testFileDir + "input1.txt", testFileDir + "input2.txt" };
+  private static String[] outputFiles = { testFileDir + "output1.txt", testFileDir + "output2.txt" };
 
   @Test
   public void testSolution() throws Exception {
-
-    String[] inputFiles = { TestSolution.testFileDir + "input1.txt", TestSolution.testFileDir + "input2.txt" };
-    String[] outputFiles = { TestSolution.testFileDir + "output1.txt", TestSolution.testFileDir + "output2.txt" };
-
     for (int i = 0; i < inputFiles.length; i++) {
       File file = new File(inputFiles[i]);
       if (!file.exists()) {
