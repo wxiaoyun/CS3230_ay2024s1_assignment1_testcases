@@ -41,7 +41,7 @@ public class TestTimeComplexity {
 
       // Run the solution
       long startTime = System.nanoTime();
-      Solution.main(new String[] {});
+      Main.main(new String[] {});
       long endTime = System.nanoTime();
 
       // Restore System.in and System.out

@@ -32,7 +32,7 @@ public class TestSolution {
       System.setOut(ps);
 
       // Run the solution
-      Solution.main(new String[] {});
+      Main.main(new String[] {});
 
       // Restore System.in and System.out
       System.setIn(System.in);

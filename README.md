@@ -26,7 +26,6 @@ This repository provides test cases for students enrolled in the National Univer
     ```java
     private static String testFileDir = "/absolute/path_to/test_file_dir/";
     ```
-2. This tests is expecting Solution.main() to solve the problem. It should read the inputs from standard in and output a single integer into the standard out
 
 ## Contribute
 
