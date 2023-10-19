@@ -42,7 +42,7 @@ You can contribute adding more test cases. Here's how you can contribute:
     cd CS3230_ay2024s1_assignment1_testcases
     git checkout -b my-test-cases
     ```
-4. **Add Your Test Cases**: Copy your test case files into the `root` directory of the cloned repository.
+4. **Add Your Test Cases**: Copy your test case files into the `root` directory of the cloned repository. Include the input and output txt file in the inputFiles and outFiles string array.
 5. **Commit and Push Your Changes**: Once you've added your test cases and edited the `TestSolution` class, commit and push your changes to your forked repository:
     ```bash
     git add .
