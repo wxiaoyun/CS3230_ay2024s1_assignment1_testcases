@@ -7,8 +7,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestSolution {
   private static String testFileDir = "/absolute/path_to/test_file_dir/"; // need the ending /
-  private static String[] inputFiles = { testFileDir + "input1.txt", testFileDir + "input2.txt" };
-  private static String[] outputFiles = { testFileDir + "output1.txt", testFileDir + "output2.txt" };
+  private static String[] inputFiles = {
+      testFileDir + "input1.txt",
+      testFileDir + "input2.txt",
+      testFileDir + "input3.txt",
+      testFileDir + "input4.txt",
+  };
+  private static String[] outputFiles = {
+      testFileDir + "output1.txt",
+      testFileDir + "output2.txt",
+      testFileDir + "output3.txt",
+      testFileDir + "output4.txt",
+  };
 
   @Test
   public void testSolution() throws Exception {
